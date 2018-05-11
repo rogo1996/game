@@ -22,5 +22,6 @@ public class mouse extends Actor
         if(Greenfoot.isKeyDown("right")){
             turn(3);
         }
+        removeTouching(cherries.class);
     }    
 }

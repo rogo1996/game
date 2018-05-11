@@ -29,5 +29,11 @@ public class MyWorld extends World
     {
         mouse mouse = new mouse();
         addObject(mouse,97,213);
+        cherries cherries = new cherries();
+        addObject(cherries,233,140);
+        cherries cherries2 = new cherries();
+        addObject(cherries2,255,272);
+        cherries cherries3 = new cherries();
+        addObject(cherries3,387,205);
     }
 }
