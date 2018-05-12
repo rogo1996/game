@@ -22,6 +22,23 @@ public class snake extends Actor
         if(Greenfoot.isKeyDown("right")){
             turn(-5);
         }
+        eatmouse();
+        turnback();
+    }
+    public void eatmouse()
+    {
         removeTouching(mouse.class);
-    }    
+        if(isTouching(mouse.class))
+        {
+            
+        }
+    }   
+    public void turnback()
+    {
+        if(getX()+1>=550)
+        {
+            turn(5);
+        }
+    }
+    
 }
