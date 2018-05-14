@@ -29,10 +29,4 @@ public class mouse extends Actor
         if(isTouching(cherries.class))
             removeTouching(cherries.class);
     }
-    
-    public void go()
-    {
-        if()
-            getWorld().showText("GO!!", 300, 150);
-    }
 }
