@@ -27,4 +27,5 @@ public class snake extends Actor
         if(isTouching(mouse.class))
             removeTouching(mouse.class);
     }
+    
 }
