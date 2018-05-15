@@ -16,29 +16,14 @@ public class snake extends Actor
     {
         // Add your action code here.
         move(2);
-        if(Greenfoot.isKeyDown("left")){
-            turn(5);
-        }
-        if(Greenfoot.isKeyDown("right")){
-            turn(-5);
-        }
-        eatmouse();
-        turnback();
+        if(Greenfoot.getRandomNumber(100)<10){
+            turn(Greenfoot.getRandomNumber(15)-30);
+        
     }
-    public void eatmouse()
-    {
-        removeTouching(mouse.class);
-        if(isTouching(mouse.class))
-        {
-            getWorld().showText("YOU LOSE NOOB!!!", 300, 200);
-        }
-    }   
-    public void turnback()
-    {
-        if(getX()+1>=550)
-        {
-            turn(5);
-        }
     }
     
+    public void eatmouse()
+    {
+        
+    }
 }
