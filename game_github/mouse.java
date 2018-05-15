@@ -32,6 +32,5 @@ public class mouse extends Actor
         if(isTouching(cherries.class))
             removeTouching(cherries.class);
     }
-    
    
 }
