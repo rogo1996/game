@@ -30,7 +30,7 @@ public class snake extends Actor
         removeTouching(mouse.class);
         if(isTouching(mouse.class))
         {
-            
+            getWorld().showText("YOU LOSE NOOB!!!", 300, 200);
         }
     }   
     public void turnback()

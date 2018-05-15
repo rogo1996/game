@@ -23,5 +23,5 @@ public class mouse extends Actor
             turn(3);
         }
         removeTouching(cherries.class);
-    }    
+    } 
 }
