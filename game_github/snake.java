@@ -24,6 +24,7 @@ public class snake extends Actor
     
     public void eatmouse()
     {
-        
+        if(isTouching(mouse.class))
+            removeTouching(mouse.class);
     }
 }
