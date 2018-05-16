@@ -18,14 +18,13 @@ public class snake extends Actor
         move(2);
         if(Greenfoot.getRandomNumber(100)<10){
             turn(Greenfoot.getRandomNumber(15)-30);
-        eatmouse();
-        }
-    }   
+        
+    }
+    }
     
     public void eatmouse()
     {
         if(isTouching(mouse.class))
             removeTouching(mouse.class);
     }
-    
 }

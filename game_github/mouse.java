@@ -23,11 +23,15 @@ public class mouse extends Actor
         if(Greenfoot.isKeyDown("right")){
             turn(3);
         }
+        
+        
         eatcherries();
     }
+    
     public void eatcherries()
     {
         if(isTouching(cherries.class))
             removeTouching(cherries.class);
     }
+   
 }

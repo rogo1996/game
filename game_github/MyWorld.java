@@ -43,9 +43,14 @@ public class MyWorld extends World
         addObject(snake2,426,78);
         snake snake3 = new snake();
         addObject(snake3,415,321);
-        snake2.setLocation(155,54);
-        snake.setLocation(305,195);
-        snake3.setLocation(306,339);
+        snake2.setLocation(160,70);
+        snake.setLocation(310,196);
+        snake3.setLocation(320,330);
+        snake snake4 = new snake();
+        addObject(snake4,215,345);
+        snake3.setLocation(415,60);
+        snake.setLocation(320,200);
+        snake4.setLocation(315,340);
         cherries cherries4 = new cherries();
         addObject(cherries4,401,104);
         cherries4.setLocation(400,104);
@@ -61,5 +66,7 @@ public class MyWorld extends World
         addObject(cherries9,306,41);
         cherries cherries10 = new cherries();
         addObject(cherries10,200,367);
+        cherries cherries11 = new cherries();
+        addObject(cherries11,500,45);
     }
 }

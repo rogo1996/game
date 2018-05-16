@@ -1,4 +1,7 @@
 #Greenfoot project file
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=1e1625e976c6391e8c2efc53c25c1751d82d9446
 class.MyWorld.image=bluerock.jpg
 class.MyWorld.superclass=greenfoot.World
 class.cherries.image=cherries.png
@@ -10,30 +13,38 @@ class.snake.superclass=greenfoot.Actor
 dependency1.from=mouse
 dependency1.to=cherries
 dependency1.type=UsesDependency
-dependency2.from=snake
-dependency2.to=mouse
+dependency2.from=mouse
+dependency2.to=snake
 dependency2.type=UsesDependency
 dependency3.from=snake
-dependency3.to=cherries
+dependency3.to=mouse
 dependency3.type=UsesDependency
-dependency4.from=MyWorld
-dependency4.to=mouse
+dependency4.from=snake
+dependency4.to=cherries
 dependency4.type=UsesDependency
 dependency5.from=MyWorld
-dependency5.to=cherries
+dependency5.to=mouse
 dependency5.type=UsesDependency
 dependency6.from=MyWorld
-dependency6.to=snake
+dependency6.to=cherries
 dependency6.type=UsesDependency
+dependency7.from=MyWorld
+dependency7.to=snake
+dependency7.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=275
 editor.fx.0.y=10
+<<<<<<< HEAD
 mainWindow.height=780
 mainWindow.width=1378
+=======
+mainWindow.height=772
+mainWindow.width=1370
+>>>>>>> 5d2f379871bf3b4df2840071661583d2e4fc5bd9
 mainWindow.x=-8
 mainWindow.y=-8
-package.numDependencies=6
+package.numDependencies=7
 package.numTargets=4
 project.charset=UTF-8
 readme.height=58
@@ -41,6 +52,7 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
+simulation.speed=49
 target1.height=50
 target1.name=mouse
 target1.showInterface=false
