@@ -66,5 +66,7 @@ public class MyWorld extends World
         addObject(cherries9,306,41);
         cherries cherries10 = new cherries();
         addObject(cherries10,200,367);
+        cherries cherries11 = new cherries();
+        addObject(cherries11,500,45);
     }
 }
