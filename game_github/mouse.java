@@ -7,6 +7,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @version (a version number or a date)
  */
 public class mouse extends Actor
+
 {
     /**
      * Act - do whatever the mouse wants to do. This method is called whenever
