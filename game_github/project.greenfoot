@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=1e1625e976c6391e8c2efc53c25c1751d82d9446
+>>>>>>>=3c5fca7a2949df33565929ddd95731e211450763
 class.MyWorld.image=bluerock.jpg
 class.MyWorld.superclass=greenfoot.World
 class.cherries.image=cherries.png
@@ -31,24 +31,12 @@ dependency6.type=UsesDependency
 dependency7.from=MyWorld
 dependency7.to=snake
 dependency7.type=UsesDependency
-editor.fx.0.height=739
-editor.fx.0.width=816
-<<<<<<< HEAD
-editor.fx.0.x=-32000
-editor.fx.0.y=-32000
-mainWindow.height=784
-mainWindow.width=1382
-=======
-editor.fx.0.x=275
-editor.fx.0.y=10
-<<<<<<< HEAD
-mainWindow.height=780
-mainWindow.width=1378
-=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 mainWindow.height=772
 mainWindow.width=1370
->>>>>>> 5d2f379871bf3b4df2840071661583d2e4fc5bd9
->>>>>>> 3c5fca7a2949df33565929ddd95731e211450763
 mainWindow.x=-8
 mainWindow.y=-8
 package.numDependencies=7
