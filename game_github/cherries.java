@@ -1,5 +1,4 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
 /**
  * Write a description of class cherries here.
  * 
@@ -17,5 +16,6 @@ public class cherries extends Actor
         // Add your action code here.
         move(1);
         turn(2);
-    }    
+    } 
+    
 }

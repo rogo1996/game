@@ -24,9 +24,9 @@ public class mouse extends Actor
             turn(3);
         }
         
-        
         eatcherries();
     }
+    
     
     public void eatcherries()
     {
@@ -34,3 +34,4 @@ public class mouse extends Actor
             removeTouching(cherries.class);
     }
 }
+

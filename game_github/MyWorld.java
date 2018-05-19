@@ -17,14 +17,11 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-
+        Greenfoot.playSound("title-theme.mp3");
         prepare();
-    }
 
-    /**
-     * Prepare the world for the start of the program.
-     * That is: create the initial objects and add them to the world.
-     */
+    }
+    
     private void prepare()
     {
         mouse mouse = new mouse();
@@ -71,4 +68,5 @@ public class MyWorld extends World
         cherries cherries12 = new cherries();
         addObject(cherries12,100,50);
     }
+
 }
