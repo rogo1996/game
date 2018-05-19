@@ -21,7 +21,8 @@ public class MyWorld extends World
         prepare();
 
     }
-    
+    
+
     private void prepare()
     {
         mouse mouse = new mouse();
