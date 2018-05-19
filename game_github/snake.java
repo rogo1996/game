@@ -20,6 +20,7 @@ public class snake extends Actor
             turn(Greenfoot.getRandomNumber(15)-30);
         
     }
+    eatmouse();
     }
     
     public void eatmouse()
