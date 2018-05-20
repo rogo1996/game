@@ -22,12 +22,7 @@ public class mouse extends Actor
         }
         if(Greenfoot.isKeyDown("right")){
             turn(3);
-        }
-<<<<<<< HEAD
-        
-=======
->>>>>>> 906842cdac7fd1f8091b81d7ccf262a695308d91
-        eatcherries();
+        }eatcherries();
     }
     
     
