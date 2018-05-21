@@ -8,7 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
-
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -21,8 +20,6 @@ public class MyWorld extends World
         Greenfoot.playSound("title-theme.mp3");
         prepare();
     }
-    
-
     private void prepare()
     {
         mouse mouse = new mouse();
@@ -69,5 +66,4 @@ public class MyWorld extends World
         cherries cherries12 = new cherries();
         addObject(cherries12,100,50);
     }
-
 }
