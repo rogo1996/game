@@ -16,8 +16,8 @@ public class snake extends Actor
     {
         // Add your action code here.
         move(3);
-        if(Greenfoot.getRandomNumber(100)<10){
-            turn(Greenfoot.getRandomNumber(15)-30);
+        if(Greenfoot.getRandomNumber(110)<15){
+            turn(Greenfoot.getRandomNumber(20)-30);
         
     }
     eatmouse();
